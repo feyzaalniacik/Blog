@@ -3,7 +3,7 @@ const router = express.Router();
 
 
 router.get("/", (req, res) => { // '/' ana sayfa anlamına gelir. / kısmını dinler
-    res.send("Test ediyoruz");
+    res.render('home'); //çalıştırınca home.ejs sayfası aktif olur
 }) 
 
 
